@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malas Ngoding</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .wrap {
+            max-width: 1200px;
+            margin: auto;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .menu {
+            background-color: #333;
+        }
+        .menu ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+        .menu ul li {
+            margin: 0 15px;
+        }
+        .menu ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            transition: background-color 0.3s;
+        }
+        .menu ul li a:hover {
+            background-color: #0056b3;
+            border-radius: 5px;
+        }
+        .badan {
+            display: flex;
+            padding: 20px;
+        }
+        .sidebar {
+            flex: 1;
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-right: 1px solid #ddd;
+        }
+        .sidebar h2 {
+            color: #333;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #007BFF;
+            transition: color 0.3s;
+        }
+        .sidebar ul li a:hover {
+            color: #0056b3;
+        }
+        .content {
+            flex: 3;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <h1>Malas Ngoding</h1>
+            <p>Tutorial Belajar Membuat Layout Website Sederhana</p>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="html.html">HTML</a></li>             
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="php.html">PHP</a></li>
+                <li><a href="javascript.html">JavaScript</a></li>
+            </ul>
+        </div>
+        <div class="badan">
+            <div class="sidebar">
+                <h2>Sidebar</h2>
+                <ul>
+                    <li><a href="#">Tutorial</a></li>
+                    <li><a href="https://www.example.com" target="_blank">Tutorial HTML Dasar</a></li>
+                    <li><a href="https://www.example.com" target="_blank">Tutorial CSS Dasar</a></li>
+                    <li><a href="https://www.example.com" target="_blank">Tutorial PHP Dasar</a></li>
+                    <li><a href="https://www.example.com" target="_blank">Tutorial jQuery Dasar</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <h2>Konten Utama</h2>
+                <p>Selamat datang di tutorial kami! Di sini, Anda akan menemukan berbagai panduan untuk membantu Anda mempelajari cara membuat website yang menarik dan fungsional.</p>
+                <!-- Content goes here -->
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
